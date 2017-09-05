@@ -6,12 +6,12 @@
     "cname": "alimasyhur.github.io"
   },
   "theme": {
-    "name": "uno-zen"
+    "name": "casper"
   },
   "urls": {
     "site": "http://alimasyhur.github.io",
     "hubpress": "https://alimasyhur.github.io",
-    "theme": "//alimasyhur.github.io/themes/roon",
+    "theme": "//alimasyhur.github.io/themes/uno-zen",
     "images": "http://alimasyhur.github.io/images"
   },
   "initialisationConfigComponent": {
