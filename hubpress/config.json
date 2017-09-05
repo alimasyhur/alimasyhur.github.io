@@ -2,7 +2,8 @@
   "meta": {
     "username": "alimasyhur",
     "repositoryName": "alimasyhur.github.io",
-    "branch": "master"
+    "branch": "master",
+    "cname": "https://alimasyhur.github.io"
   },
   "theme": {
     "name": "casper"
@@ -22,5 +23,27 @@
       null,
       null
     ]
+  },
+  "site": {
+    "title": "alimasyhur - sharing is caring",
+    "description": "This is my own blog",
+    "logo": "",
+    "cover": "",
+    "delay": "",
+    "postsPerPage": "5",
+    "googleAnalytics": "",
+    "disqus": "alimasyhur"
+  },
+  "socialnetwork": {
+    "email": "jegrag4ever@gmail.com",
+    "github": "alimasyhur",
+    "twitter": "",
+    "facebook": "",
+    "googleplus": "",
+    "instagram": "",
+    "pinterest": "",
+    "flickr": "",
+    "linkedin": "",
+    "stackoverflow": ""
   }
 }
