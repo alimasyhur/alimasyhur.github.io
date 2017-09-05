@@ -9,10 +9,10 @@
     "name": "ghostium"
   },
   "urls": {
-    "site": "http://alimasyhur.github.io",
+    "site": "https://alimasyhur.github.io",
     "hubpress": "https://alimasyhur.github.io",
     "theme": "//alimasyhur.github.io/themes/casper",
-    "images": "http://alimasyhur.github.io/images"
+    "images": "https://alimasyhur.github.io/images"
   },
   "initialisationConfigComponent": {
     "name": "initialise-configuration",
