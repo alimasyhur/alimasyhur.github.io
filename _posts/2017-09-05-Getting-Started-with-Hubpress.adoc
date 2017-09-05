@@ -1,0 +1,8 @@
+= Getting started with Hubpress
+:hp-image: /covers/cover.png
+:published_at: 2017-09-05
+:hp-tags: HubPress, Blog, Open_Source,
+:hp-alt-title: Getting Started with Hubpress
+
+This is my first time using Hubpress.
+I want to post an article how to integrate hubpress and markdown
