@@ -1,0 +1,29 @@
+= Error Installing Glide Go
+//:hp-image: /covers/cover.png
+:published_at: 2017-09-05
+:hp-tags: Golang, Glide, Golang Package Manager
+:hp-alt-title: Error Installing Glide Go
+
+Go has package manager like Java with Maven, PHP with composer, Python with pip, etc. See this documentation for details 
+https://glide.readthedocs.io/en/latest[Glide Documentation].
+After Installing Glide with this command
+
+`curl https://glide.sh/get | sh` you will face this kind of error:
+`_glide not found. Did you add $LGOBIN to your $PATH?_`.
+
+Don't be panic, do this command!
+Add this code below on the bottom of your .bashrc file.
+
+`export GOPATH=$HOME/(Path of your go project)
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin</code>`
+
+For Example:
+`export GOPATH=$HOME/projects`
+`export PATH=$PATH:$GOROOT/bin:$GOPATH/bin`
+
+And then run installation command again.
+`curl https://glide.sh/get | sh`
+
+And your installation will be successfully done.
+glide version v0.12.3 installed successfully
+
