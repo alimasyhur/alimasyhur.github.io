@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Error Installing Glide Go</title>
+    <meta name="description" content="" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="http://alimasyhur.github.io/favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="//alimasyhur.github.io/themes/casper/assets/css/screen.css?v=1504577193989" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
+
+    <link rel="canonical" href="http://alimasyhur.github.io/2017/09/05/Error-Installing-Glide-Go.html" />
+    <meta name="referrer" content="origin" />
+    
+    <meta property="og:site_name" content="alimasyhur - sharing is caring" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Error Installing Glide Go" />
+    <meta property="og:description" content="Go has package manager like Java with Maven, PHP with composer, Python with pip, etc. See this documentation for details Glide Documentation. After Installing Glide with this command curl https://glide.sh/get | sh you will face this kind of error: glide not found. Did you add $LGOBIN to your" />
+    <meta property="og:url" content="http://alimasyhur.github.io/2017/09/05/Error-Installing-Glide-Go.html" />
+    <meta property="article:published_time" content="2017-09-05T00:00:00.000Z" />
+    <meta property="article:tag" content="Golang" />
+    <meta property="article:tag" content="Glide" />
+    <meta property="article:tag" content="Golang Package Manager" />
+    
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Error Installing Glide Go" />
+    <meta name="twitter:description" content="Go has package manager like Java with Maven, PHP with composer, Python with pip, etc. See this documentation for details Glide Documentation. After Installing Glide with this command curl https://glide.sh/get | sh you will face this kind of error: glide not found. Did you add $LGOBIN to your" />
+    <meta name="twitter:url" content="http://alimasyhur.github.io/2017/09/05/Error-Installing-Glide-Go.html" />
+    
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "publisher": "alimasyhur - sharing is caring",
+    "author": {
+        "@type": "Person",
+        "name": "Ali Masyhur",
+        "image": "https://avatars0.githubusercontent.com/u/8981410?v=4",
+        "url": "http://alimasyhur.github.io/author/alimasyhur/"
+    },
+    "headline": "Error Installing Glide Go",
+    "url": "http://alimasyhur.github.io/2017/09/05/Error-Installing-Glide-Go.html",
+    "datePublished": "2017-09-05T00:00:00.000Z",
+    "keywords": "Golang, Glide, Golang Package Manager",
+    "description": "Go has package manager like Java with Maven, PHP with composer, Python with pip, etc. See this documentation for details Glide Documentation. After Installing Glide with this command curl https://glide.sh/get | sh you will face this kind of error: glide not found. Did you add $LGOBIN to your"
+}
+    </script>
+
+    <meta name="generator" content="HubPress" />
+    <link rel="alternate" type="application/rss+xml" title="alimasyhur - sharing is caring" href="http://alimasyhur.github.io/rss/" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/styles/atom-one-dark.min.css">
+    
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+</head>
+<body class="post-template tag-Golang tag-Glide tag-Golang-Package-Manager nav-closed">
+
+    
+
+    <div class="site-wrapper">
+
+        
+
+
+<header class="main-header post-head no-cover">
+    <nav class="main-nav  clearfix">
+        
+    </nav>
+</header>
+
+<main class="content" role="main">
+    <article class="post tag-Golang tag-Glide tag-Golang-Package-Manager">
+
+        <header class="post-header">
+            <h1 class="post-title">Error Installing Glide Go</h1>
+            <section class="post-meta">
+                <time class="post-date" datetime="2017-09-05">05 September 2017</time>  on <a href="http://alimasyhur.github.io/tag/Golang/">Golang</a>, <a href="http://alimasyhur.github.io/tag/Glide/">Glide</a>, <a href="http://alimasyhur.github.io/tag/Golang-Package-Manager/">Golang Package Manager</a>
+            </section>
+        </header>
+
+        <section class="post-content">
+            <div class="paragraph">
+<p>Go has package manager like Java with Maven, PHP with composer, Python with pip, etc. See this documentation for details
+<a href="https://glide.readthedocs.io/en/latest">Glide Documentation</a>.
+After Installing Glide with this command</p>
+</div>
+<div class="paragraph">
+<p><code>curl <a href="https://glide.sh/get" class="bare">https://glide.sh/get</a> | sh</code> you will face this kind of error:
+<code><em>glide not found. Did you add $LGOBIN to your $PATH?</em></code>.</p>
+</div>
+<div class="paragraph">
+<p>Don&#8217;t be panic, do this command!
+Add this code below on the bottom of your .bashrc file.</p>
+</div>
+<div class="paragraph">
+<p><code>export GOPATH=$HOME/(Path of your go project)
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin&lt;/code&gt;</code></p>
+</div>
+<div class="paragraph">
+<p>For Example:
+<code>export GOPATH=$HOME/projects</code>
+<code>export PATH=$PATH:$GOROOT/bin:$GOPATH/bin</code></p>
+</div>
+<div class="paragraph">
+<p>And then run installation command again.
+<code>curl <a href="https://glide.sh/get" class="bare">https://glide.sh/get</a> | sh</code></p>
+</div>
+<div class="paragraph">
+<p>And your installation will be successfully done.
+glide version v0.12.3 installed successfully</p>
+</div>
+        </section>
+
+        <footer class="post-footer">
+
+
+            <figure class="author-image">
+                <a class="img" href="http://alimasyhur.github.io/author/alimasyhur/" style="background-image: url(https://avatars0.githubusercontent.com/u/8981410?v&#x3D;4)"><span class="hidden">Ali Masyhur's Picture</span></a>
+            </figure>
+
+            <section class="author">
+                <h4><a href="http://alimasyhur.github.io/author/alimasyhur/">Ali Masyhur</a></h4>
+
+                    <p>Read <a href="http://alimasyhur.github.io/author/alimasyhur/">more posts</a> by this author.</p>
+                <div class="author-meta">
+                    <span class="author-location icon-location">Solo, Indonesia</span>
+                    
+                </div>
+            </section>
+
+
+            <section class="share">
+                <h4>Share this post</h4>
+                <a class="icon-twitter" href="https://twitter.com/intent/tweet?text=Error%20Installing%20Glide%20Go&amp;url=http://alimasyhur.github.io/2017/09/05/Error-Installing-Glide-Go.html"
+                    onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <span class="hidden">Twitter</span>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://alimasyhur.github.io/2017/09/05/Error-Installing-Glide-Go.html"
+                    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <span class="hidden">Facebook</span>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://alimasyhur.github.io/2017/09/05/Error-Installing-Glide-Go.html"
+                   onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <span class="hidden">Google+</span>
+                </a>
+            </section>
+
+        </footer>
+
+
+        <section class="post-comments">
+          <div id="disqus_thread"></div>
+          <script type="text/javascript">
+          var disqus_shortname = 'alimasyhur'; // required: replace example with your forum shortname
+          /* * * DON'T EDIT BELOW THIS LINE * * */
+          (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+          })();
+          </script>
+          <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+          <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </section>
+
+
+    </article>
+
+</main>
+
+<aside class="read-next">
+</aside>
+
+
+
+        <footer class="site-footer clearfix">
+            <section class="copyright"><a href="http://alimasyhur.github.io">alimasyhur - sharing is caring</a> &copy; 2017</section>
+            <section class="poweredby">Proudly published with <a href="http://hubpress.io">HubPress</a></section>
+        </footer>
+
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/highlight.min.js?v="></script> 
+      <script type="text/javascript">
+        jQuery( document ).ready(function() {
+          // change date with ago
+          jQuery('ago.ago').each(function(){
+            var element = jQuery(this).parent();
+            element.html( moment(element.text()).fromNow());
+          });
+        });
+
+        hljs.initHighlightingOnLoad();
+      </script>
+
+    <script type="text/javascript" src="//alimasyhur.github.io/themes/casper/assets/js/jquery.fitvids.js?v=1504577193989"></script>
+    <script type="text/javascript" src="//alimasyhur.github.io/themes/casper/assets/js/index.js?v=1504577193989"></script>
+
+</body>
+</html>

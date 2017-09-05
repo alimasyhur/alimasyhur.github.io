@@ -1,4 +1,33 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[alimasyhur - sharing is caring]]></title><description><![CDATA[This is my own blog]]></description><link>http://alimasyhur.github.io</link><generator>RSS for Node</generator><lastBuildDate>Tue, 05 Sep 2017 01:50:23 GMT</lastBuildDate><atom:link href="http://alimasyhur.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Getting started with Hubpress]]></title><description><![CDATA[<div class="paragraph">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[alimasyhur - sharing is caring]]></title><description><![CDATA[This is my own blog]]></description><link>http://alimasyhur.github.io</link><generator>RSS for Node</generator><lastBuildDate>Tue, 05 Sep 2017 02:06:33 GMT</lastBuildDate><atom:link href="http://alimasyhur.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Getting started with Hubpress]]></title><description><![CDATA[<div class="paragraph">
 <p>This is my first time using Hubpress.
 I want to post an article how to integrate hubpress and markdown</p>
-</div>]]></description><link>http://alimasyhur.github.io/2017/09/05/Getting-Started-with-Hubpress.html</link><guid isPermaLink="true">http://alimasyhur.github.io/2017/09/05/Getting-Started-with-Hubpress.html</guid><category><![CDATA[HubPress]]></category><category><![CDATA[Blog]]></category><category><![CDATA[Open_Source]]></category><dc:creator><![CDATA[Ali Masyhur]]></dc:creator><pubDate>Tue, 05 Sep 2017 00:00:00 GMT</pubDate></item></channel></rss>
+</div>]]></description><link>http://alimasyhur.github.io/2017/09/05/Getting-Started-with-Hubpress.html</link><guid isPermaLink="true">http://alimasyhur.github.io/2017/09/05/Getting-Started-with-Hubpress.html</guid><category><![CDATA[HubPress]]></category><category><![CDATA[Blog]]></category><category><![CDATA[Open_Source]]></category><dc:creator><![CDATA[Ali Masyhur]]></dc:creator><pubDate>Tue, 05 Sep 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[Error Installing Glide Go]]></title><description><![CDATA[<div class="paragraph">
+<p>Go has package manager like Java with Maven, PHP with composer, Python with pip, etc. See this documentation for details
+<a href="https://glide.readthedocs.io/en/latest">Glide Documentation</a>.
+After Installing Glide with this command</p>
+</div>
+<div class="paragraph">
+<p><code>curl <a href="https://glide.sh/get" class="bare">https://glide.sh/get</a> | sh</code> you will face this kind of error:
+<code><em>glide not found. Did you add $LGOBIN to your $PATH?</em></code>.</p>
+</div>
+<div class="paragraph">
+<p>Don&#8217;t be panic, do this command!
+Add this code below on the bottom of your .bashrc file.</p>
+</div>
+<div class="paragraph">
+<p><code>export GOPATH=$HOME/(Path of your go project)
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin&lt;/code&gt;</code></p>
+</div>
+<div class="paragraph">
+<p>For Example:
+<code>export GOPATH=$HOME/projects</code>
+<code>export PATH=$PATH:$GOROOT/bin:$GOPATH/bin</code></p>
+</div>
+<div class="paragraph">
+<p>And then run installation command again.
+<code>curl <a href="https://glide.sh/get" class="bare">https://glide.sh/get</a> | sh</code></p>
+</div>
+<div class="paragraph">
+<p>And your installation will be successfully done.
+glide version v0.12.3 installed successfully</p>
+</div>]]></description><link>http://alimasyhur.github.io/2017/09/05/Error-Installing-Glide-Go.html</link><guid isPermaLink="true">http://alimasyhur.github.io/2017/09/05/Error-Installing-Glide-Go.html</guid><category><![CDATA[Golang]]></category><category><![CDATA[Glide]]></category><category><![CDATA[Golang Package Manager]]></category><dc:creator><![CDATA[Ali Masyhur]]></dc:creator><pubDate>Tue, 05 Sep 2017 00:00:00 GMT</pubDate></item></channel></rss>
