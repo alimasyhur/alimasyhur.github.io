@@ -6,13 +6,13 @@
     "cname": "alimasyhur.github.io"
   },
   "theme": {
-    "name": "ghostium"
+    "name": "roon"
   },
   "urls": {
-    "site": "https://alimasyhur.github.io",
+    "site": "http://alimasyhur.github.io",
     "hubpress": "https://alimasyhur.github.io",
-    "theme": "//alimasyhur.github.io/themes/casper",
-    "images": "https://alimasyhur.github.io/images"
+    "theme": "//alimasyhur.github.io/themes/ghostium",
+    "images": "http://alimasyhur.github.io/images"
   },
   "initialisationConfigComponent": {
     "name": "initialise-configuration",
