@@ -3,16 +3,16 @@
     "username": "alimasyhur",
     "repositoryName": "alimasyhur.github.io",
     "branch": "master",
-    "cname": "https://alimasyhur.github.io"
+    "cname": "alimasyhur.github.io"
   },
   "theme": {
     "name": "casper"
   },
   "urls": {
-    "site": "https://alimasyhur.github.io",
+    "site": "http://https://alimasyhur.github.io",
     "hubpress": "https://alimasyhur.github.io",
-    "theme": "//alimasyhur.github.io/themes/casper",
-    "images": "https://alimasyhur.github.io/images"
+    "theme": "//https://alimasyhur.github.io/themes/casper",
+    "images": "http://https://alimasyhur.github.io/images"
   },
   "initialisationConfigComponent": {
     "name": "initialise-configuration",
