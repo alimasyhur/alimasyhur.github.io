@@ -1,0 +1,29 @@
+= Change Remote URL Git
+
+:published_at: 2019-01-31
+:hp-tags: Change remote URL, Remote URL, Git,
+:hp-alt-title: Change Remote URL Git
+
+
+=== Switching remote URLs from SSH to HTTPS
+`git remote -v`
+
+origin  git@github.com:USERNAME/REPOSITORY.git (fetch)
+origin  git@github.com:USERNAME/REPOSITORY.git (push)
+
+`git remote set-url origin https://github.com/USERNAME/REPOSITORY.git`
+
+`git remote -v` (Verify new remote URL)
+
+origin  https://github.com/USERNAME/REPOSITORY.git (fetch)
+origin  https://github.com/USERNAME/REPOSITORY.git (push)
+
+
+=== Switching remote URLs from HTTPS to SSH
+`git remote -v`
+
+`git remote set-url origin`
+
+`git@github.com:USERNAME/REPOSITORY.git`
+
+`git remote -v`
