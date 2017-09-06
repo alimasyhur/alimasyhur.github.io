@@ -11,7 +11,7 @@
   "urls": {
     "site": "http://alimasyhur.github.io",
     "hubpress": "https://alimasyhur.github.io",
-    "theme": "//alimasyhur.github.io/themes/uno-zen",
+    "theme": "//alimasyhur.github.io/themes/casper",
     "images": "http://alimasyhur.github.io/images"
   },
   "initialisationConfigComponent": {
