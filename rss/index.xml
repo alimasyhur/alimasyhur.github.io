@@ -1,21 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[alimasyhur - sharing is caring]]></title><description><![CDATA[This is my own blog]]></description><link>http://alimasyhur.github.io</link><generator>RSS for Node</generator><lastBuildDate>Wed, 06 Sep 2017 02:04:16 GMT</lastBuildDate><atom:link href="http://alimasyhur.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Change Remote URL Git]]></title><description><![CDATA[<div class="sect2">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[alimasyhur - sharing is caring]]></title><description><![CDATA[This is my own blog]]></description><link>http://alimasyhur.github.io</link><generator>RSS for Node</generator><lastBuildDate>Wed, 06 Sep 2017 02:07:31 GMT</lastBuildDate><atom:link href="http://alimasyhur.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Change Remote URL Git]]></title><description><![CDATA[<div class="sect2">
 <h3 id="_switching_remote_urls_from_ssh_to_https">Switching remote URLs from SSH to HTTPS</h3>
 <div class="paragraph">
 <p><code>git remote -v</code></p>
-</div>
-<div class="paragraph">
-<p>origin  <a href="mailto:git@github.com">git@github.com</a>:USERNAME/REPOSITORY.git (fetch)
-origin  <a href="mailto:git@github.com">git@github.com</a>:USERNAME/REPOSITORY.git (push)</p>
 </div>
 <div class="paragraph">
 <p><code>git remote set-url origin <a href="https://github.com/USERNAME/REPOSITORY.git" class="bare">https://github.com/USERNAME/REPOSITORY.git</a></code></p>
 </div>
 <div class="paragraph">
 <p><code>git remote -v</code> (Verify new remote URL)</p>
-</div>
-<div class="paragraph">
-<p>origin  <a href="https://github.com/USERNAME/REPOSITORY.git" class="bare">https://github.com/USERNAME/REPOSITORY.git</a> (fetch)
-origin  <a href="https://github.com/USERNAME/REPOSITORY.git" class="bare">https://github.com/USERNAME/REPOSITORY.git</a> (push)</p>
 </div>
 </div>
 <div class="sect2">
@@ -24,10 +16,7 @@ origin  <a href="https://github.com/USERNAME/REPOSITORY.git" class="bare">https:
 <p><code>git remote -v</code></p>
 </div>
 <div class="paragraph">
-<p><code>git remote set-url origin</code></p>
-</div>
-<div class="paragraph">
-<p><code>git@github.com:USERNAME/REPOSITORY.git</code></p>
+<p><code>git remote set-url origin <a href="mailto:git@github.com">git@github.com</a>:USERNAME/REPOSITORY.git</code></p>
 </div>
 <div class="paragraph">
 <p><code>git remote -v</code></p>
