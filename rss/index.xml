@@ -1,4 +1,38 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[alimasyhur - sharing is caring]]></title><description><![CDATA[This is my own blog]]></description><link>http://alimasyhur.github.io</link><generator>RSS for Node</generator><lastBuildDate>Wed, 06 Sep 2017 01:54:46 GMT</lastBuildDate><atom:link href="http://alimasyhur.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Generate SSH Key]]></title><description><![CDATA[<div class="paragraph">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[alimasyhur - sharing is caring]]></title><description><![CDATA[This is my own blog]]></description><link>http://alimasyhur.github.io</link><generator>RSS for Node</generator><lastBuildDate>Wed, 06 Sep 2017 02:00:34 GMT</lastBuildDate><atom:link href="http://alimasyhur.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Change Remote URL Git]]></title><description><![CDATA[<div class="sect2">
+<h3 id="_switching_remote_urls_from_ssh_to_https">Switching remote URLs from SSH to HTTPS</h3>
+<div class="paragraph">
+<p><code>git remote -v</code></p>
+</div>
+<div class="paragraph">
+<p>origin  <a href="mailto:git@github.com">git@github.com</a>:USERNAME/REPOSITORY.git (fetch)
+origin  <a href="mailto:git@github.com">git@github.com</a>:USERNAME/REPOSITORY.git (push)</p>
+</div>
+<div class="paragraph">
+<p><code>git remote set-url origin <a href="https://github.com/USERNAME/REPOSITORY.git" class="bare">https://github.com/USERNAME/REPOSITORY.git</a></code></p>
+</div>
+<div class="paragraph">
+<p><code>git remote -v</code> (Verify new remote URL)</p>
+</div>
+<div class="paragraph">
+<p>origin  <a href="https://github.com/USERNAME/REPOSITORY.git" class="bare">https://github.com/USERNAME/REPOSITORY.git</a> (fetch)
+origin  <a href="https://github.com/USERNAME/REPOSITORY.git" class="bare">https://github.com/USERNAME/REPOSITORY.git</a> (push)</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_switching_remote_urls_from_https_to_ssh">Switching remote URLs from HTTPS to SSH</h3>
+<div class="paragraph">
+<p><code>git remote -v</code></p>
+</div>
+<div class="paragraph">
+<p><code>git remote set-url origin</code></p>
+</div>
+<div class="paragraph">
+<p><code>git@github.com:USERNAME/REPOSITORY.git</code></p>
+</div>
+<div class="paragraph">
+<p><code>git remote -v</code></p>
+</div>
+</div>]]></description><link>http://alimasyhur.github.io/2019/01/31/Change-Remote-URL-Git.html</link><guid isPermaLink="true">http://alimasyhur.github.io/2019/01/31/Change-Remote-URL-Git.html</guid><category><![CDATA[Change remote URL]]></category><category><![CDATA[Remote URL]]></category><category><![CDATA[Git]]></category><dc:creator><![CDATA[Ali Masyhur]]></dc:creator><pubDate>Thu, 31 Jan 2019 00:00:00 GMT</pubDate></item><item><title><![CDATA[Generate SSH Key]]></title><description><![CDATA[<div class="paragraph">
 <p><code>ssh-keygen -t rsa -b 4096 -C "<a href="mailto:your_email@example.com">your_email@example.com</a>"</code></p>
 </div>
 <div class="paragraph">
