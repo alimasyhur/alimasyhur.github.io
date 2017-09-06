@@ -1,4 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[alimasyhur - sharing is caring]]></title><description><![CDATA[This is my own blog]]></description><link>http://alimasyhur.github.io</link><generator>RSS for Node</generator><lastBuildDate>Tue, 05 Sep 2017 02:06:33 GMT</lastBuildDate><atom:link href="http://alimasyhur.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Getting started with Hubpress]]></title><description><![CDATA[<div class="paragraph">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[alimasyhur - sharing is caring]]></title><description><![CDATA[This is my own blog]]></description><link>http://alimasyhur.github.io</link><generator>RSS for Node</generator><lastBuildDate>Wed, 06 Sep 2017 01:54:46 GMT</lastBuildDate><atom:link href="http://alimasyhur.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Generate SSH Key]]></title><description><![CDATA[<div class="paragraph">
+<p><code>ssh-keygen -t rsa -b 4096 -C "<a href="mailto:your_email@example.com">your_email@example.com</a>"</code></p>
+</div>
+<div class="paragraph">
+<p>Enter a file in which to save the key (/home/you/.ssh/id_rsa): [Press enter] &#8594; naming file /home/you/.ssh/&lt;name&gt;_id_rsa</p>
+</div>
+<div class="paragraph">
+<p>Enter passphrase (empty for no passphrase): [Type a passphrase]
+Enter same passphrase again: [Type passphrase again]</p>
+</div>
+<div class="paragraph">
+<p><code>eval "$(ssh-agent -s)"</code></p>
+</div>
+<div class="paragraph">
+<p><code>ssh-add ~/.ssh/id_rsa</code> or <code>ssh-add ~/.ssh/&lt;name&gt;_id_rsa</code></p>
+</div>]]></description><link>http://alimasyhur.github.io/2017/09/06/Generate-SSH-Key.html</link><guid isPermaLink="true">http://alimasyhur.github.io/2017/09/06/Generate-SSH-Key.html</guid><category><![CDATA[SSH]]></category><category><![CDATA[SSH Key]]></category><category><![CDATA[Generate SSH Key]]></category><dc:creator><![CDATA[Ali Masyhur]]></dc:creator><pubDate>Wed, 06 Sep 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[Getting started with Hubpress]]></title><description><![CDATA[<div class="paragraph">
 <p>This is my first time using Hubpress.
 I want to post an article how to integrate hubpress and markdown</p>
 </div>]]></description><link>http://alimasyhur.github.io/2017/09/05/Getting-Started-with-Hubpress.html</link><guid isPermaLink="true">http://alimasyhur.github.io/2017/09/05/Getting-Started-with-Hubpress.html</guid><category><![CDATA[HubPress]]></category><category><![CDATA[Blog]]></category><category><![CDATA[Open_Source]]></category><dc:creator><![CDATA[Ali Masyhur]]></dc:creator><pubDate>Tue, 05 Sep 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[Error Installing Glide Go]]></title><description><![CDATA[<div class="paragraph">
